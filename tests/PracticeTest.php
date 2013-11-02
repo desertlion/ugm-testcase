@@ -105,7 +105,7 @@ class PracticeTest extends PHPUnit_Framework_TestCase
 		$data = array(1,3,5,7,10);
 
 		//hasil yang diharapkan
-		$expected = 5;
+		$expected = 5; //nilai tengah yang harusnya keluar 5
 
 		//assert
 		$test = new \Statistic\Statistic($data);
